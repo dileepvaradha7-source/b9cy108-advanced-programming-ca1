@@ -21,7 +21,7 @@ For the staff app, add one member with each of options 1–3, then use option 4 
 
 For the student app, try IDs `20001010` to `20001029`. The project reproduces the example student and first three grades from the brief. The other 19 records are synthetic. Module 4 and 5 serve as placeholders for the unnamed columns. The illustrative grade boundaries are A ≥80, B+ ≥70, B ≥60, C ≥50, D ≥40 and F below 40. The example student's final two results are pending.
 
-The evidence folders contain images rendered from genuine terminal sessions. The project can be rerun to capture native terminal screenshots for the report.
+The evidence folders contain Windows PowerShell screenshots showing all three staff roles, five passing tests, and the example student lookup.
 
 ## Part II
 
