@@ -1,6 +1,6 @@
 # B9CY108 Advanced Programming Techniques
 
-Part I checkpoint for CA One, 25 November 2026. The two .NET 10 console projects run independently.
+Part I checkpoint for CA One. The two .NET 10 console projects run independently.
 
 | Project | What it does | Verification |
 | --- | --- | --- |
@@ -23,15 +23,14 @@ For the student app, try IDs `20001010` to `20001029`. The project reproduces th
 
 The evidence folders contain images rendered from genuine terminal sessions. The project can be rerun to capture native terminal screenshots for the report.
 
-## Part II on 26 November 2026
+## Part II
 
 1. Implement `Que3_server.py` and `Que3_client.py` for library sign-up over TCP. Use PostgreSQL and confirm the returned registration number matches the stored record. Capture client, server and database evidence with synthetic details.
 2. Implement `Que4.py` to extract Dublin district codes and names from the assigned Wikipedia page, write JSON, read it back to create CSV, and print the CSV rows. Save both output files and capture the console result.
-3. Record separate GitHub updates as work is completed. Add the repository link and evidence to the report, keep its body within 700 words, and add the official Electronic Assignment Cover Sheet. Package all four folders and the report under the actual student ID. The brief lists 27 November 2026 as the due date and Moodle as the submission route.
+3. Record separate GitHub updates as work is completed. Add the repository link and evidence to the report, keep its body within 700 words, and add the official Electronic Assignment Cover Sheet. Package all four folders and the report under the actual student ID. Submit through Moodle.
 
-## Sources and assistance
+## Sources
 
 - Dublin Business School, B9CY108 CA One assignment brief, Tasks 1–2. Source for the requirements, menu and example student record.
 - [Microsoft Learn, Get started with C# and MSTest](https://learn.microsoft.com/dotnet/core/testing/unit-testing-with-mstest). Reference for the test-project setup and assertions.
 - [Microsoft Learn, Install .NET on Linux](https://learn.microsoft.com/en-us/dotnet/core/install/linux). Reference for the SDK used to build and run the projects.
-- OpenAI ChatGPT, 25 November 2026. Assisted with interpreting the brief, drafting the C# code and MSTest cases, running and checking the applications, capturing terminal output and preparing this checkpoint. Record any subsequent assistance and changes in the report.
