@@ -47,11 +47,11 @@ Use your private PostgreSQL password file or local environment for authenticatio
 
 In a separate terminal, run `python Que3/Que3_client.py` and enter synthetic details. Select a 6- or 12-month membership. The client prints the assigned registration number after PostgreSQL saves the record. To use a different TCP port, pass the same `--port` value to both programs.
 
-Query `library_members` to inspect the saved rows. See `Que3/evidence` for the client, server, and PostgreSQL output captures.
+Query `library_members` to inspect the saved rows. `Que3/evidence` contains Windows PowerShell client and server captures of two synthetic registrations (6 and 12 months) and a pgAdmin query showing the matching PostgreSQL 19 rows. The second client run also shows an invalid duration being rejected before accepting `12`.
 
 ### Que4 - Dublin postal districts
 
-Run `python Que4/Que4.py` with internet access. The script writes `dublin_postal_districts.json` and `dublin_postal_districts.csv` in `Que4`, then prints all CSV rows. Use `--output-dir` to choose a different directory. The checked-in run produced 178 area rows across 22 numbered Dublin districts, including D6W. See `Que4/evidence` for an excerpt from the output.
+Run `python Que4/Que4.py` with internet access. The script writes `dublin_postal_districts.json` and `dublin_postal_districts.csv` in `Que4`, then prints all CSV rows. Use `--output-dir` to choose a different directory. The checked-in run produced 178 area rows across 22 numbered Dublin districts, including D6W. `Que4/evidence` contains Windows PowerShell captures of the first CSV rows and the final count and saved-file message.
 
 ## Sources
 
